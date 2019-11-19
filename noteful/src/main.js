@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./main.css";
 
 // class Main extends Component {
@@ -7,7 +8,7 @@ const Main = () => {
   return (
     <div>
       <header className="mainHeader">
-        {/* <link to="/">Noteful</link> */} Noteful
+        <Link to="/">Noteful</Link>
       </header>
 
       <section className="sideBar">

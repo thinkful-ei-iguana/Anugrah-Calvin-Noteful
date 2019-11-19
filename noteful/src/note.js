@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const note = () => {
     return (
         <div>
             <header className="mainHeader">
-                {/* <link to="/">Noteful</link> */}
+                <Link to="/">Noteful</Link>
             </header>
 
             <section className="sideBar">
