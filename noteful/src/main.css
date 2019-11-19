@@ -1,0 +1,61 @@
+body {
+  display: flex;
+}
+
+div {
+  width: 100%;
+}
+
+ul {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1920px) {
+  li {
+    list-style: none;
+    border: solid black 2px;
+  }
+
+  .mainHeader {
+    font-size: 3em;
+    border: solid black 2px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sideBar {
+    font-size: 1.1em;
+    padding-bottom: 10px;
+    text-align: center;
+    align-content: left;
+    border: solid black 2px;
+    width: 18%;
+    height: 100%;
+    display: inline-block;
+  }
+
+  .mainSection {
+    width: 75%;
+    float: right;
+    font-size: 1.1em;
+    padding-bottom: 10px;
+    text-align: center;
+    border: solid black 2px;
+  }
+
+  .folder {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 0px;
+    width: 250px;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: left;
+    list-style-position: inherit;
+  }
+}
