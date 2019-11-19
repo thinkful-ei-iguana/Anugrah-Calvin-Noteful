@@ -4,7 +4,7 @@ const note = () => {
     return (
         <div>
             <header className="mainHeader">
-                <link to="/">Noteful</link>
+                {/* <link to="/">Noteful</link> */}
             </header>
 
             <section className="sideBar">

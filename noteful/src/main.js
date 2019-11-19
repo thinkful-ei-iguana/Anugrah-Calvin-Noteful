@@ -1,13 +1,13 @@
-import React from "./React";
+import React from "react";
 import "./main.css";
 
 // class Main extends Component {
 
 const Main = () => {
-  return;
+  return (
   <div>
     <header className="mainHeader">
-      <link to="/">Noteful</link>
+      {/* <link to="/">Noteful</link> */}
     </header>
 
     <section className="sideBar">
@@ -43,7 +43,7 @@ const Main = () => {
       </ul>
     </section>
 
-  </div>;
-};
+  </div>
+  )};
 
 export default Main;
