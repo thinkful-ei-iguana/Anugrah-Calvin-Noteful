@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./main.css";
+//import Note from "/note";
 
 // class Main extends Component {
 
@@ -24,7 +25,7 @@ const Main = () => {
         <ul>
           <li>
             <div>
-              <h2>Note 1</h2>
+              <h2><Link to="/note">Note 1</Link></h2>
               <p>Date modified info</p>
               <button>Delete Note</button>
             </div>
